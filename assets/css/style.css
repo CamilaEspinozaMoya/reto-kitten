@@ -1,0 +1,27 @@
+img {
+  width: 100%;
+}
+
+@media (min-width: 425px) and (max-width: 584px){
+  [class*="col-"] {
+    width: 100%;
+    text-align: center;
+  }
+  .titulo{
+    font-family: 'Sacramento', cursive;
+  }
+  .gatito{
+    content: url("../img/kitten-night.jpg");
+  }
+}
+@media (min-width: 320px) and (max-width: 584px){
+  [class*="col-"]{
+    width: 100%;
+    text-align: center;
+  }
+  .gatito{
+    content: url("../img/kitten-dawn.jpg");
+  }
+}
+
+/* no cambia la imagen, revisar */
